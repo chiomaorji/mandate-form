@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Lato&family=Open+Sans:wght@300&family=Playfair+Display:wght@500&family=Red+Rose:wght@300;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo {
+  height: 80px;
+  margin-left: auto;
+}
+.information {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-gap: 10px;
+}
+.subscription1 {
+  grid-column: 1/2;
+}
+.subscription2 {
+  grid-column: 2/4;
+}
+.bankpart1 {
+  grid-column: 1/2;
+}
+
+.bankpart2 {
+  grid-column: 2/4;
+}
+.paymentpart1 {
+  grid-column: 1/2;
+}
+.paymentpart2 {
+  grid-column: 2/4;
+}
+.footer {
+  grid-column: 1/2;
+}
+
+.input-group {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.data {
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  flex-grow: 1;
+  padding: 4px;
+  transition: border-bottom-color 0.3s ease-in-out;
+  border-width: 0px 0px 2px 0px;
+}
+.span {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.checkbox {
+  padding: 1rem;
+}
+
+.data-box {
+  width: 70%;
+  height: 2rem;
+  margin: 0.5rem;
+}
+.pt {
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.gender-checkbox {
+  padding: 1rem;
+  display: flex;
+  padding-top: px;
+  
+}
+
+.checkbox1 {
+  margin-left: 1rem;
+}
+.checkbox2 {
+  margin-left: 5rem;
+}
+.start {
+  margin-right: 1rem;
+  height: 2rem;
+  width: 21%;
+}
+.end {
+  height: 2rem;
+  width: 21%;
+}
+.payment-type {
+  margin-right: 1rem;
+}
+
+.payment-date {
+  padding: 1rem;
+}
+.signature {
+  padding: 1rem;
+}
+.amount {
+  padding-left: 1rem;
+}
+.payment-type {
+  padding: 1rem;
+}
+
+.data-box3 {
+  height: 2rem;
+  width: 70%;
+}
+.data-box2 {
+  height: 2rem;
+  width: 40%;
+}
+.policy {
+  padding: 1rem;
+}
+.frequency {
+  padding: 1rem;
+}
+.signature {
+  padding: 1rem;
+  
+}
+.footer {
+  padding: 1rem;
+  font-weight: bold;
+}
+.frequency1 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.checkbox {
+  padding: 5rem;
+}
